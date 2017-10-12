@@ -24,7 +24,7 @@ This will build and deploy the microservice along with a Postgres database.
 3. To test the service using curl:
 
 ```
-curl http://catalog-<project>.<domain>/api/catalog
+curl http://catalog-<project>.<domain>/services/products
 ```
 For example:
 
