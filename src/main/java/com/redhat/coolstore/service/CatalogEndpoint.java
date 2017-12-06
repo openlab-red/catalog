@@ -25,4 +25,5 @@ public class CatalogEndpoint {
     public List<Product> listAll() {
         return repository.list();
     }
+
 }

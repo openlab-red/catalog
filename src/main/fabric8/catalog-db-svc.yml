@@ -8,5 +8,7 @@ spec:
       port: 5432
       targetPort: 5432
   selector:
-    deploymentconfig: catalog-database
-  type: LoadBalancer
+    name: catalog-database
+  sessionAffinity: None
+  type: ClusterIP
+
